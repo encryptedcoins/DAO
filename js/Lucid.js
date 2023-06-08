@@ -17,10 +17,6 @@ class LucidLoader {
   get Blockfrost() {
     return this._wasm.Blockfrost;
   }
-
-  get Data() {
-    return this._wasm.Data;
-  }
 }
 
 const lucidLoader = new LucidLoader();
